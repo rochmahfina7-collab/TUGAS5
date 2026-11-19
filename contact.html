@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Form Contact</h2>
+
+    <fieldset>
+        <legend>Contact</legend>
+        <form action="proses.php" method="post" enctype="multipart/form-data">
+            <p>
+                <label>Nama:</label>
+                <input type="text" placeholder="Masukkan nama">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" placeholder="Masukkan email">
+            </p>
+            <p>
+                <label>Subject:</label>
+                <input type="text" placeholder="Masukkan subject">
+            </p>
+            <p>
+                <label>Pesan:</label><br>
+                <textarea rows="4" cols="30" placeholder="Tulis pesan Anda..."></textarea>
+            </p>
+            <p>
+                <button>
+                    <a href="index.html">Send</a>
+                </button>
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
